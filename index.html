@@ -1,16 +1,51 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João - Portfólio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>portfolio</title>
-</head>
+    <meta name="author" content="João Victor de Souza" />
+    <meta
+      name="description"
+      content="Desenvolvedor Full Stack especializado em web. Veja meus projetos mais recentes e habilidades."
+    />
+    <meta
+      name="keywords"
+      content="portfólio, desenvolvedor web, front-end, back-end, React, NextJS, TypeScript, JavaScript"
+    />
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Meu Portfólio de Desenvolvedor - João Victor"
+    />
+    <meta
+      property="og:description"
+      content="Desenvolvedor Full Stack especializado em web. Veja meus projetos mais recentes e habilidades."
+    />
+  </head>
 
+  <body>
+    <div id="root"></div>
+
+    <!-- Prevent FOUC -->
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem('theme');
+          const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
+            .matches
+            ? 'dark'
+            : 'light';
+          const theme = !savedTheme ? systemTheme : savedTheme;
+
+          localStorage.setItem('theme', theme);
+          document.documentElement.classList.add(theme);
+        } catch (err) {}
+      })();
+    </script>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
