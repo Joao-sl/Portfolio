@@ -1,1 +1,16 @@
-{}
+{
+  "about": {
+    "title": "A Little Bit About Me",
+    "description": "My name is João Victor, but you can call me Jão if you want. I'm a developer who loves creating — I don't mind whether it's backend or frontend. I have a degree in Systems Analysis and Development from UNIP and have also completed several programming courses. I'm currently eager to find an opportunity to show my skills, learn new ones, and collaborate with more experienced developers, always striving to improve both my hard and soft skills.",
+    "description-2": "When I'm away from the computer, I like to walk and ride my bike around.",
+
+    "card-title": "TL;DR? Overview:",
+    "card-subtitle-1": "Frontend",
+    "card-subtitle-2": "Backend",
+    "card-subtitle-3": "Degree",
+
+    "card-description-1": "Creating modern and responsive web pages.",
+    "card-description-2": "Creating modern, secure and efficient APIs.",
+    "card-description-3": "Systems Analysis and Development Degree."
+  }
+}

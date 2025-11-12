@@ -1,1 +1,16 @@
-{}
+{
+  "about": {
+    "title": "Um pouco sobre mim",
+    "description": "Meu nome é João Victor, mas pode me chamar de Jão se quiser, sou um desenvolvedor que gosta de criar, não me importo se é backend ou front. Sou formado em Análise e Desenvolvimento de Sistemas pela UNIP e tenho alguns cursos na área de programação. Atualmente, estou ansioso em busca de uma oportunidade para mostrar minhas atuais habilidades e aprender novas, colaborar com programadores mais experientes, procurando sempre evolução tanto em hard quanto soft-skills.",
+    "description-2": "Quando estou longe do computador, gosto de andar e pedalar por aí.",
+
+    "card-title": "Muito texto? Resumo:",
+    "card-subtitle-1": "Frontend",
+    "card-subtitle-2": "Backend",
+    "card-subtitle-3": "Graduação",
+
+    "card-description-1": "Criação de páginas modernas e responsivas.",
+    "card-description-2": "Criação de APIs modernas, seguras e eficientes.",
+    "card-description-3": "Analise e Desenvolvimento de Sistemas."
+  }
+}
