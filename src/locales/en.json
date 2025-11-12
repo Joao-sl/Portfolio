@@ -12,5 +12,10 @@
     "card-description-1": "Creating modern and responsive web pages.",
     "card-description-2": "Creating modern, secure and efficient APIs.",
     "card-description-3": "Systems Analysis and Development Degree."
+  },
+  "resume": {
+    "title": "Check out my résumé",
+    "button-text": "Get a Copy",
+    "button-aria-label": "PDF copy of my 2025 résumé."
   }
 }

@@ -12,5 +12,10 @@
     "card-description-1": "Criação de páginas modernas e responsivas.",
     "card-description-2": "Criação de APIs modernas, seguras e eficientes.",
     "card-description-3": "Analise e Desenvolvimento de Sistemas."
+  },
+  "resume": {
+    "title": "Confira meu Currículo",
+    "button-text": "Cópia em PDF",
+    "button-aria-label": "PDF do meu currículo de 2025."
   }
 }
