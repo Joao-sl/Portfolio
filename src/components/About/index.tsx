@@ -27,15 +27,15 @@ function About() {
     <section id='about-me' className='flex min-h-[95vh]'>
       <Container className='flex flex-col items-center justify-center gap-8 text-center'>
         <div className='space-y-5 max-w-[650px]'>
-          <h1 className='text-3xl font-bold uppercase'>{t('about.title')}</h1>
+          <h2 className='text-3xl font-bold uppercase'>{t('about.title')}</h2>
           <p>{t('about.description')}</p>
           <p>{t('about.description-2')}</p>
         </div>
 
         <div className='border-t space-y-8 pt-8'>
-          <h2 className='font-semibold text-xl uppercase'>
+          <h3 className='font-semibold text-xl uppercase'>
             {t('about.card-title')}
-          </h2>
+          </h3>
 
           <dl className='grid grid-cols-1 sm:grid-cols-3 gap-8'>
             {overviewCards.map((item, idx) => {
