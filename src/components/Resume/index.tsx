@@ -8,7 +8,7 @@ function Resume() {
     <section
       id='resume'
       className={clsx(
-        'relative text-white p-20',
+        'relative text-white py-20',
         'bg-[url(https://placehold.co/1920x1080)]',
         'bg-fixed bg-cover bg-center bg-no-repeat',
       )}
@@ -16,9 +16,9 @@ function Resume() {
       <div aria-hidden className='absolute inset-0 bg-black/40' />
 
       <div className='relative flex flex-col justify-center items-center'>
-        <h1 className='text-3xl font-semibold mb-7 uppercase'>
+        <h2 className='text-2xl sm:text-3xl font-semibold mb-7 uppercase text-center'>
           {t('resume.title')}
-        </h1>
+        </h2>
 
         <a
           href='/resume2025.pdf'

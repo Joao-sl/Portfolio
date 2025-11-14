@@ -26,11 +26,13 @@ function About() {
   return (
     <section id='about-me' className='flex min-h-[95vh]'>
       <Container className='flex flex-col items-center justify-center gap-8 text-center'>
-        <div className='space-y-5 max-w-[650px]'>
-          <h2 className='text-3xl font-bold uppercase'>{t('about.title')}</h2>
+        <header className='space-y-5 max-w-[650px]'>
+          <h2 className='text-2xl md:text-3xl font-semibold uppercase'>
+            {t('about.title')}
+          </h2>
           <p>{t('about.description')}</p>
           <p>{t('about.description-2')}</p>
-        </div>
+        </header>
 
         <div className='border-t space-y-8 pt-8'>
           <h3 className='font-semibold text-xl uppercase'>
