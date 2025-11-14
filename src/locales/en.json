@@ -13,6 +13,19 @@
     "card-description-2": "Creating modern, secure and efficient APIs.",
     "card-description-3": "Systems Analysis and Development Degree."
   },
+
+  "experience": {
+    "title": "Experience",
+    "description": "I've been studying development for {{yearsStudying}} years, always striving to stay updated, improve, and learn more.",
+
+    "languages": "Languages",
+    "frameworks-and-libs": "Frameworks and Libs",
+    "tools": "Tools",
+
+    "exp-title": "Professional Experience",
+    "exp-description": "Although I have not had a professional role yet, I am actively seeking my first opportunity. In the meantime, I have developed and published several projects on my GitHub, which you can explore in the 'projects' section and in my repository."
+  },
+
   "resume": {
     "title": "Check out my résumé",
     "button-text": "Get a Copy",

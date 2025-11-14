@@ -13,6 +13,19 @@
     "card-description-2": "Criação de APIs modernas, seguras e eficientes.",
     "card-description-3": "Analise e Desenvolvimento de Sistemas."
   },
+
+  "experience": {
+    "title": "Experiência",
+    "description": "Venho estudando desenvolvimento a cerca de {{yearsStudying}} anos, sempre buscando melhorar e aprender cada vez mais.",
+
+    "languages": "Linguagens",
+    "frameworks-and-libs": "Frameworks e Bibliotecas",
+    "tools": "Ferramentas",
+
+    "exp-title": "Experiência Profissional",
+    "exp-description": "Ainda não tenho experiência profissional, estou em busca da minha primeira, porém tenho diversos projetos publicados no meu GitHub. Você pode conferir alguns na sessão 'projetos' e mais no meu repositório."
+  },
+
   "resume": {
     "title": "Confira meu Currículo",
     "button-text": "Cópia em PDF",
