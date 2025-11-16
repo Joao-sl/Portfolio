@@ -47,7 +47,7 @@ function Projects() {
   ];
 
   return (
-    <section id='projects' className='h-screen'>
+    <section id='projects'>
       <Container className='space-y-18'>
         <header className='text-center space-y-4'>
           <h2 className='text-2xl md:text-3xl font-semibold uppercase'>
