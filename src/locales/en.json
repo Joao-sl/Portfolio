@@ -30,5 +30,22 @@
     "title": "Check out my résumé",
     "button-text": "Get a Copy",
     "button-aria-label": "PDF copy of my 2025 résumé."
+  },
+
+  "projects": {
+    "title": "Projects",
+    "description": "I like to build personal projects as part of my learning — here are a few of them.",
+
+    "thoth-title": "Thoth Pomodoro",
+    "thoth-description": "Thoth-Pomodoro is a web app that helps you manage your Pomodoro cycles. It's fully configurable — focus time, short and long breaks, themes — and it also saves your activity history.",
+
+    "recipes-api-title": "Recipes API",
+    "recipes-api-description": "API built with Django for managing culinary recipes, focused on organization and scalability. The system includes user registration and login, JWT authentication, recipe categorization, and management of ingredients and steps. Users can create, read, update and delete their recipes while they are not public. Once an administrator approves a recipe, the user can no longer edit it — it becomes part of the site and credit is given to the creator.",
+
+    "recipes-frontend-title": "Recipes Frontend",
+    "recipes-frontend-description": "Frontend developed in TypeScript with React + Next.js, integrating my <1>recipes API</1> via JWT and Route Handlers. Styled with Tailwind CSS for fast, responsive rendering. Main features: recipe CRUD, user profile updates, personalized dashboards, listings and detail pages, and search by name/tags. Componentization, state management, SSR/CSR as needed, and secure API consumption practices.",
+
+    "stack-sr-only": "Technologies used in the project.",
+    "btn-more": "More Projects"
   }
 }
