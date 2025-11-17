@@ -47,5 +47,10 @@
 
     "stack-sr-only": "Tecnologias utilizadas no projeto.",
     "btn-more": "Mais Projetos"
+  },
+
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Se você tem alguma oportunidade para mim, sinta-se à vontade para me enviar um e-mail ou uma mensagem no LinkedIn."
   }
 }
