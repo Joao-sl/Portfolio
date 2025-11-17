@@ -52,5 +52,12 @@
   "contact": {
     "title": "Entre em Contato",
     "description": "Se você tem alguma oportunidade para mim, sinta-se à vontade para me enviar um e-mail ou uma mensagem no LinkedIn."
+  },
+
+  "footer": {
+    "title": "Informações de contato e copyright.",
+    "made-by": "Feito por João",
+    "with": "Com Vite",
+    "socials-btn-label": "Link para o meu"
   }
 }
