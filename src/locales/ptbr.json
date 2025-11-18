@@ -1,14 +1,17 @@
 {
+  "hero": {
+    "greetings": "Olá, eu sou o",
+    "typewriter-msgs": "Desenvolvedor Fullstack, Imagine e eu construirei, Entusiasta de Tecnologia"
+  },
+
   "about": {
     "title": "Um pouco sobre mim",
     "description": "Meu nome é João Victor, mas pode me chamar de Jão se quiser, sou um desenvolvedor que gosta de criar, não me importo se é backend ou front. Sou formado em Análise e Desenvolvimento de Sistemas pela UNIP e tenho alguns cursos na área de programação. Atualmente, estou ansioso em busca de uma oportunidade para mostrar minhas atuais habilidades e aprender novas, colaborar com programadores mais experientes, procurando sempre evolução tanto em hard quanto soft-skills.",
     "description-2": "Quando estou longe do computador, gosto de andar e pedalar por aí.",
-
     "card-title": "Muito texto? Resumo:",
     "card-subtitle-1": "Frontend",
     "card-subtitle-2": "Backend",
     "card-subtitle-3": "Graduação",
-
     "card-description-1": "Criação de páginas modernas e responsivas.",
     "card-description-2": "Criação de APIs modernas, seguras e eficientes.",
     "card-description-3": "Analise e Desenvolvimento de Sistemas."
@@ -17,11 +20,9 @@
   "experience": {
     "title": "Experiência",
     "description": "Venho estudando desenvolvimento a cerca de {{yearsStudying}} anos, sempre buscando melhorar e aprender cada vez mais.",
-
     "languages": "Linguagens",
     "frameworks-and-libs": "Frameworks e Bibliotecas",
     "tools": "Ferramentas",
-
     "exp-title": "Experiência Profissional",
     "exp-description": "Ainda não tenho experiência profissional, estou em busca da minha primeira, porém tenho diversos projetos publicados no meu GitHub. Você pode conferir alguns na sessão 'projetos' e mais no meu repositório."
   },
@@ -35,16 +36,12 @@
   "projects": {
     "title": "Projetos",
     "description": "Sempre tento fazer alguns projetos pessoais como parte dos meus estudos, aqui estão alguns deles",
-
     "thoth-title": "Thoth Pomodoro",
     "thoth-description": "O Thoth-Pomodoro é um web app que te ajuda gerenciar a seus ciclos de pomodoro, ele é completamente configurável, tempo de foco, descanso longo e curto, temas, além de salvar seu histórico de atividades.",
-
     "recipes-api-title": "Recipes API",
     "recipes-api-description": "API desenvolvida em Django para gestão de receitas culinárias, com foco em organização e escalabilidade. O sistema inclui cadastro e login de usuários, autenticação JWT, categorização de receitas, controle de ingredientes e etapas. Usuários podem criar, ler, atualizar e deletar suas receitas enquanto não estiverem públicas. Após um administrador aprovar a receita, ela não pode mais ser atualizada pelo usuário, ela se torna parte do site e os créditos serão delegados ao criador.",
-
     "recipes-frontend-title": "Recipes Frontend",
     "recipes-frontend-description": "Frontend desenvolvido em TypeScript com React + Next.js, integrando a minha <1>API de receitas</1> via JWT e Route Handlers. Estilização com Tailwind CSS para renderização responsiva e rápida. Funcionalidades principais: CRUD de receitas, atualização de usuário, dashboards personalizados, listagens e páginas de detalhe, além de busca por nome/tags. Componentização, gerenciamento de estado, SSR/CSR conforme necessidade e práticas de consumo seguro de APIs.",
-
     "stack-sr-only": "Tecnologias utilizadas no projeto.",
     "btn-more": "Mais Projetos"
   },
