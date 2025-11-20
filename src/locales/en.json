@@ -1,4 +1,10 @@
 {
+  "language-toggle": {
+    "toggle-aria-label": "Change site language",
+    "pt-br": "Brazilian Portuguese",
+    "en-us": "USA English"
+  },
+
   "hero": {
     "greetings": "Hi, I'm",
     "typewriter-msgs": "Fullstack Developer, Imagine It And I'll Build It, Technology Enthusiast"
