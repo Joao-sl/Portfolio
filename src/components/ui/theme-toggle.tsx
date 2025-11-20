@@ -14,7 +14,7 @@ function ThemeToggle() {
 
   return (
     <button
-      aria-label={clsx(t('theme-toggle.button-aria-label'), t(nextTheme))}
+      aria-label={clsx(t('theme-toggle.button-aria-label'), nextTheme)}
       onClick={() => setTheme(isDarkMode ? 'light' : 'dark')}
     >
       {isDarkMode ? <IconSun size={20} /> : <IconMoon size={20} />}
