@@ -6,15 +6,15 @@ import ptbrTranslation from '../locales/ptbr.json';
 i18next.use(initReactI18next).init({
   debug: import.meta.env.DEV,
   resources: {
-    ptbr: {
+    'pt-BR': {
       translation: ptbrTranslation,
     },
-    en: {
+    'en-US': {
       translation: enTranslation,
     },
   },
-  lng: 'ptbr',
-  fallbackLng: 'ptbr',
+  lng: 'en-US',
+  fallbackLng: 'en-US',
   interpolation: {
     escapeValue: false,
   },
