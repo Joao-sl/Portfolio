@@ -5,6 +5,12 @@
     "en-us": "Inglês dos Estados Unidos"
   },
 
+  "theme-toggle": {
+    "button-aria-label": "Mudar para o tema",
+    "dark-theme": "escuro",
+    "light-theme": "claro"
+  },
+
   "hero": {
     "greetings": "Olá, eu sou o",
     "typewriter-msgs": "Desenvolvedor Fullstack, Imagine e eu construirei, Entusiasta de Tecnologia"

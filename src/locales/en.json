@@ -5,6 +5,12 @@
     "en-us": "USA English"
   },
 
+  "theme-toggle": {
+    "button-aria-label": "Change theme to",
+    "dark-theme": "dark mode",
+    "light-theme": "light mode"
+  },
+
   "hero": {
     "greetings": "Hi, I'm",
     "typewriter-msgs": "Fullstack Developer, Imagine It And I'll Build It, Technology Enthusiast"
