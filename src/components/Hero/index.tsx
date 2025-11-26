@@ -1,41 +1,65 @@
-import { IconArrowDown } from '@tabler/icons-react';
+import clsx from 'clsx';
+import { useGSAP } from '@gsap/react';
 import { Container } from '../ui/container';
-import { TypeWriter } from '../ui/typewriter';
-import { useTranslation } from 'react-i18next';
+import { heroAnimations } from './animations';
 
 function Hero() {
-  const { t } = useTranslation();
-  const typeWriterMsgs = t('hero.typewriter-msgs').split(',');
+  useGSAP(() => {
+    heroAnimations();
+  }, []);
+
+  const words = [
+    {
+      word: 'backend',
+      color:
+        '**:bg-clip-text **:text-transparent **:bg-linear-to-b **:from-lime-400 **:to-lime-600',
+    },
+    {
+      word: 'frontend',
+      color:
+        '**:bg-clip-text *:text-transparent **:bg-linear-to-b **:from-sky-400 **:to-sky-600',
+    },
+    {
+      word: 'creative',
+      color:
+        '**:bg-clip-text *:text-transparent **:bg-linear-to-b **:from-yellow-400 **:to-yellow-600',
+    },
+  ];
 
   return (
-    <section
-      id='hero'
-      className='h-screen bg-linear-to-br from-background to-primary/5'
-    >
-      <Container className='relative flex flex-col items-center justify-center h-full space-y-14'>
-        <h1 className='flex flex-col items-center hero-title'>
-          <span className='font-normal text-xl text-muted-foreground tracking-tight'>
-            {t('hero.greetings')}
-          </span>
-          <span className='font-bold font-[pacifico] text-[clamp(8rem,20vw,12rem)] leading-none'>
-            João
-          </span>
+    <section id='hero' className='bg-linear-to-br from-background to-primary/5'>
+      <Container className='min-h-screen flex items-center justify-center'>
+        <h1
+          className={clsx(
+            'flex flex-col justify-center items-center h-full',
+            'font-[Anton] uppercase leading-none gap-2',
+            'text-[clamp(4rem,12vw,12rem)]',
+          )}
+        >
+          <span className='hero-joao'>João</span>
+          <div className='relative w-full overflow-hidden text-center'>
+            <span aria-hidden className='invisible line-clamp-1'>
+              Hello, how are you?
+            </span>
+
+            {words.map(item => {
+              return (
+                <p
+                  key={item.word}
+                  className={clsx(
+                    'hero-rotate-text absolute text-center',
+                    'inset-x-0 top-0 invisible',
+                    item.color,
+                  )}
+                >
+                  {item.word}
+                </p>
+              );
+            })}
+          </div>
+
+          <span className='hero-dev'>Developer</span>
         </h1>
-
-        <p className='sr-only'>{t('hero.typewriter-msgs')}</p>
-        <TypeWriter
-          as={'p'}
-          typingSpeed={75}
-          deletingSpeed={50}
-          text={typeWriterMsgs}
-          aria-hidden
-          className='text-xl text-muted-foreground'
-        />
-
-        <IconArrowDown
-          className='absolute bottom-1/12 animate-bounce'
-          aria-hidden
-        />
       </Container>
     </section>
   );

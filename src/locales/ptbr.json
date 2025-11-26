@@ -11,11 +11,6 @@
     "light-theme": "claro"
   },
 
-  "hero": {
-    "greetings": "Olá, eu sou o",
-    "typewriter-msgs": "Desenvolvedor Fullstack, Imagine e eu construirei, Entusiasta de Tecnologia"
-  },
-
   "about": {
     "title": "Um pouco sobre mim",
     "description": "Meu nome é João Victor, mas pode me chamar de Jão se quiser, sou um desenvolvedor que gosta de criar, não me importo se é backend ou front. Sou formado em Análise e Desenvolvimento de Sistemas pela UNIP e tenho alguns cursos na área de programação. Atualmente, estou ansioso em busca de uma oportunidade para mostrar minhas atuais habilidades e aprender novas, colaborar com programadores mais experientes, procurando sempre evolução tanto em hard quanto soft-skills.",
